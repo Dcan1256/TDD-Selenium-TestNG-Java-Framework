@@ -1,0 +1,34 @@
+<suite name="Suite">
+
+    <!--
+        Your Base TestNG XML suite
+        *Browser
+                *TestCase 1
+                *TestCase 2
+                .
+                .
+                .
+    -->
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+
+
+    <test thread-count="5" name="Test-Docker-Firefox-Linux">
+        <parameter name="os" value="Linux"/>
+        <parameter name="browser" value="firefox"/>
+        <classes>
+
+        </classes>
+    </test><!--  Test  -->
+
+    <test thread-count="5" name="Test-Docker-Chrome-Linux">
+        <parameter name="os" value="Linux"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+
+        </classes>
+    </test><!--  Test  -->
+
+</suite><!--  Suite  -->

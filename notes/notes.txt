@@ -1,0 +1,9 @@
+9/17/2024 --> Local execution "OK"
+              Multiple user login with Data Provided from xlsx file "OK"
+
+              * You need to work on Selenium Grid for Remote exec_env with different browsers and Operating
+              Systems
+
+              * Docker setup (Optional)
+
+              * CI/CD setup on Jenkins

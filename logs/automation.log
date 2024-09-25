@@ -1,0 +1,4 @@
+21:31:18.114 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Entering correct credential to login from the config file... -----
+21:31:18.257 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Heading to Main Page... -----
+21:31:18.258 [main] INFO  testCase.TC_001B_ValidLoginDDT - ----- Verifying Main Page title is displayed...
+21:31:18.276 [main] INFO  testCase.TC_001B_ValidLoginDDT - ***** SUCCESS !!! *****
